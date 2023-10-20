@@ -1,8 +1,8 @@
----
-Name: Chris Corona
-Course: cis106
-weekly report 3
----
+
+name: Chris Corona
+course: cis106
+assignment: weekly report 3
+
 
 # Weekly Report 3
 
