@@ -40,9 +40,15 @@ assignment: weekly report 3
 ## Basic terminology
 
 + File System - the way files are stored and organized
+  
 + Current directory - directory where you are at the moment
-+ Parent Directory - the subdirectory that is adjacet to the current working directory
-+ The difference between your home directory and THE HOME directory - your home directory is the file where all of the files in, "home" are stored. "The home" directory can also be refered to as the root directory, where all files from the system stem from.
+  
++ Parent Directory - the subdirectory that is adjacent to the current working directory
+  
++ The difference between your home directory and THE HOME directory - your home directory is the file where all of the files in, "home" are stored. "The home" directory can also be referred to as the root directory, where all files from the system stem from.
+  
 + pathname - indicates the location of the file in the filesystem
+  
 + relative path - the location of a file starting from the root of the file system
+  
 + absolute path - then location of a file starting from the current working directory or a directory that is located inside the current working directory
