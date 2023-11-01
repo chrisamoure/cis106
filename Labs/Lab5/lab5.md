@@ -18,3 +18,4 @@ lab 5
 ![q4](q4.png)
 
 ## Question 5
+![q5](q5.png)
