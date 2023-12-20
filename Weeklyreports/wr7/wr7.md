@@ -8,7 +8,7 @@ Week report 7
 
  | Commands | What It Does                                                | Syntax                                    | Example                                                                                  |
  | -------- | ----------------------------------------------------------- | ----------------------------------------- | ---------------------------------------------------------------------------------------- |
- | cat      | display contents of a file                                  | cat + option + file        | `cat todo.lst` and `cat ~/Documents/todo.lst`                                            |
+ | cat      | display contents of a file                                  | cat + option + file        | `cat todo.lst` and `cat -n ~/Documents/todo.lst`                                            |
  | tac      | display the content of a file in reverse order              | tac + option + file         | `tac todo.md` and `tac ~/Downloads/todo.md`                                              |
  | head     | displays the top N number of lines of a file                | head + option + file                  | `head ~/Documents/Book/dracula.txt` and `head -5 ~/Documents/Book/dracula.txt`           |
  | tail     | displays the last N number of lines of a file               | tail + option + file                   | `tail ~/Documents/Book/dracula.txt` and `tail 5 ~/Documents/Book/dracula.txt`            |
@@ -19,3 +19,23 @@ Week report 7
  | tr       | translates or deletes characters from standard output       | Standard output l tr + option + set + set | `cat file.txt l tr '.' ','` and `cat file.py l tr -s "[:space:]" ' '`                    |
  | diff     | compares files and displays the differences between them    | diff + option + file1 + file2             | `diff cars.csv cars-backup.csv` and `diff -y cars.csv cars-backup.csv`                   |
  | grep     | search text in given file                                   | grep + option + file + file(s) | `grep 'dracula' ~/Documents/dracula.txt` and `grep -i 'dracula' ~/Documents/dracula.txt` |
+
+ 
+ ## Question 2
+
+ what is awk?
+  - awk is a scripting language used for processing and displaying text.
+
+usage:
+   `awk + options + {awk command} + file + file to save`
+
+examples:
+- `awk -F '{print $1}' /etc/passwd`
+  
+- `awk -F '{print $NF}' /etc/passwd`
+  
+- `awk -F '{print $1, " = ", $NF}' /etc/passwd`
+  
+- `awk -F '{print NR,$1,$3}' /etc/passwd`
+  
+- `awk -F '{OFS="="}{print $1,$4}' /etc/passwd`
