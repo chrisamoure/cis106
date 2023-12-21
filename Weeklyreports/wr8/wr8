@@ -1,0 +1,42 @@
+---
+chris corona
+cis 106
+week report 8
+---
+
+What is VIM?
+Vim is a text editor that can be downloaded using sudo
+
+What is nano?
+Nano is a line-based text editor that can be used in the command line of linux.
+
+Describe in your own words how to:
+
+    Start and quit vim
+type "vim" to start vim. to quit press ESC, and ":Q"
+
+    What are the different vim modes:
+Insert mode- used for writing text
+
+normal mode - used for manipluating text
+
+command mode - used for entering vim commands
+
+visual mode - used for navigation and manipulation of text selections
+
+select mode - similar to visual mode
+
+ex-mode - similar to the command-line mode but optimized for batch 
+
+    Insert text in vim
+    press, "I" in the vim command
+
+    Save a file in vim
+    press ESC, then type, ":wq"
+
+    Search for a word inside vim
+    press ESC, "/" then word you want to search
+
+    Delete text in vim
+    press ESC, press "dw"
+
